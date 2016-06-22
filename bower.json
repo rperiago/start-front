@@ -1,12 +1,12 @@
 {
-  "name": "ComunidadeGamesNerd",
-  "description": "Estudos de desenvolvimento de games",
+  "name": "Baia de Guanabara - Globoesporte.com",
+  "description": "Globo esporte developer",
   "main": "gulpfile.js",
   "authors": [
     "Ricardo Periago <periago.ricardo@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/rperiago/comunidade-games-nerds",
+  "homepage": "https://bitbucket.org/gelabs/baia-de-guanabara",
   "ignore": [
     "**/.*",
     "node_modules",
