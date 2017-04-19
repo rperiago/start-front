@@ -9,16 +9,12 @@ var minifycss = require('gulp-minify-css');
 var autoprefixer = require('gulp-autoprefixer');
 var pug = require('gulp-pug2')
 var mainBowerFiles = require('main-bower-files');
-var bourbon = require("node-bourbon").includePaths;
-var neat = require("node-neat").includePaths;
 var reload = browserSync.reload;
 
 gulp.task('sass', function () {
   gulp.src('app/scss/style.scss')
     .pipe(sass({
       includePaths: ['app/scss'],
-      includePaths: bourbon,
-      includePaths: neat,
     })).on('error', sass.logError)
     .pipe(gulp.dest('app/styles'))
     .pipe(reload({stream: true}))

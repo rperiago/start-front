@@ -1,11 +1,22 @@
 @import "font";
-@import "bourbon";
-@import "neat";
 
-#wrapper {
-  @include outer-container;
+body{
+  font-family: "open_sans_regular", Arial, serif;
 }
 
-
-
-
+.header{
+  .menu{
+    ul{
+      width: 80%;
+      li{
+        display: inline-block;
+      }
+    }
+  }
+}
+#wrapper {
+  font-size: 14px;
+  h1{
+    color: #333;
+  }
+}

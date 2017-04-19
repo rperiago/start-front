@@ -104,17 +104,15 @@
   font-weight: normal;
   font-style: normal; }
 
-html {
-  box-sizing: border-box; }
+body {
+  font-family: "open_sans_regular", Arial, serif; }
 
-*, *::after, *::before {
-  box-sizing: inherit; }
+.header .menu ul {
+  width: 80%; }
+  .header .menu ul li {
+    display: inline-block; }
 
 #wrapper {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  #wrapper::after {
-    clear: both;
-    content: "";
-    display: table; }
+  font-size: 14px; }
+  #wrapper h1 {
+    color: #333; }

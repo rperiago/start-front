@@ -2,9 +2,9 @@ extends default.pug
 
 block content
     article#wrapper
-        h1  Periago
-        p teste de pug
+        h1(class="titulo") Um exemplo
+        p Descrição
         div
             ul
-                li teste
-                li periago
+            each val in [1, 2, 3, 4, 5]
+                li= val
